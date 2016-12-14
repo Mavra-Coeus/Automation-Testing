@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://appekomi-voe.coeus-solutions.de/" />
+<title>TC_2_Start_A_Team_Register_with_already_registered_Email</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_2_Start_A_Team_Register_with_already_registered_Email</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/#/start</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Start a team</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='text']</td>
+	<td>BFI Team</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>BFI.Inc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[3]</td>
+	<td>German, Berlin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[4]</td>
+	<td>www.BFI.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
+	<td>Larry Mac</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='email']</td>
+	<td>BFI@gmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.messenger-close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.messenger-close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='text']</td>
+	<td>BFL Team</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>BFL.Inc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='email']</td>
+	<td>BFL@gmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.messenger-message-inner</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.messenger-close</td>
+	<td>×</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.messenger-close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.messenger-close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/button</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
